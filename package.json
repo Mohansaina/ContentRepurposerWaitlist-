@@ -7,7 +7,8 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "deploy": "node deploy-to-vercel.js"
+    "deploy": "node deploy-to-vercel.js",
+    "deploy:github": "node deploy-to-github-pages.js"
   },
   "dependencies": {
     "react": "19.1.0",

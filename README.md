@@ -39,12 +39,17 @@ Double-click the **[one-click-deploy.bat](file:///c:/Users/svssw/Downloads/autoy
 #### Option 2: Automated Deployment (Windows)
 Double-click the **[deploy.bat](file:///c:/Users/svssw/Downloads/autoyoutue/deploy.bat)** file to automatically deploy to Vercel.
 
-#### Option 3: Using npm script
+#### Option 3: Deploy to GitHub Pages
+```bash
+npm run deploy:github
+```
+
+#### Option 4: Using npm script
 ```bash
 npm run deploy
 ```
 
-#### Option 4: Manual Deployment
+#### Option 5: Manual Deployment
 1. Install Vercel CLI:
    ```bash
    npm install -g vercel
