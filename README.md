@@ -33,15 +33,18 @@ A landing page for converting YouTube videos into social media posts.
 
 ### Deployment
 
-#### Option 1: Automated Deployment (Windows)
-Double-click the `deploy.bat` file to automatically deploy to Vercel.
+#### Option 1: One-Click Deployment (Easiest)
+Double-click the **[one-click-deploy.bat](file:///c:/Users/svssw/Downloads/autoyoutue/one-click-deploy.bat)** file to automatically open the Vercel deployment page.
 
-#### Option 2: Using npm script
+#### Option 2: Automated Deployment (Windows)
+Double-click the **[deploy.bat](file:///c:/Users/svssw/Downloads/autoyoutue/deploy.bat)** file to automatically deploy to Vercel.
+
+#### Option 3: Using npm script
 ```bash
 npm run deploy
 ```
 
-#### Option 3: Manual Deployment
+#### Option 4: Manual Deployment
 1. Install Vercel CLI:
    ```bash
    npm install -g vercel
