@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: 'export',
   distDir: 'out',
   images: {
@@ -9,9 +8,6 @@ const nextConfig: NextConfig = {
   // GitHub Pages compatibility
   basePath: '/ContentRepurposerWaitlist-',
   assetPrefix: '/ContentRepurposerWaitlist-',
-  turbopack: {
-    root: ".",
-  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
